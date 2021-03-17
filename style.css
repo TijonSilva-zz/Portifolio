@@ -1,18 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
-           *{
+           * {
                 padding: 0;
                 margin: 0;
                 border: 0;
             }
             body {
-                background: #131314;
-                font-family: 'Open Sans', sans-serif;
-
+                background: #282a36;
+                font-family: 'Souce Sans Pro', sans-serif;
+                         
             }
-            header {
+              header {
                 padding: 32px;
-                border-bottom: 7px dashed rgb(255, 51, 0);
-                background: rgb(8, 8, 8);
+                border-bottom: 7px  solid 1px #333;
+                background: rgba(0, 0, 0,0.1);
 
             }
             header div {
@@ -34,3 +34,18 @@
                 color:rgb(0, 255, 0);
                 transition: color 200ms;
             }
+            #wrapper {
+                text-align: center;
+                padding: 32px
+            }
+            #wrapper img {
+                border-radius: 50%;
+                border: 5px solid #50fa7b;
+                margin-bottom: 32px;
+            }
+            #wrapper h1 {
+                font-size: 42px;
+                line-height: 52px;
+                font-weight: bold;
+            }
+          
