@@ -1,51 +1,76 @@
-@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
-         * {
-                padding: 0;
-                margin: 0;
-                border: 0;
-            }
-            body {
-                background: #282a36;
-                font-family: 'Souce Sans Pro', sans-serif;
-                         
-            }
-              header {
-                padding: 32px;
-                border-bottom: 7px  solid 1px #333;
-                background: rgba(0, 0, 0,0.1);
+:root {
+    --color-green: #50fa7b
+}
 
-            }
-            header div {
-                text-align: center;
-            
-            }
-            header div a {
-                color: rgb(255, 255, 255);
-                font-size: 18px;
-                line-height: 28px;
-                margin: 0 16px;
-                padding-bottom: 3px;
-                text-decoration: none;
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap';
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
+body {
+    background: #282a36;
+    color: white;
+    font-family: 'Souce Sans Pro', sans-serif;
+}
 
-            }
+header {
+    padding: 32px;
+    border-bottom: 7px solid 1px #333;
+    background: rgba(0, 0, 0, 0.1);
+}
 
-            header div a:hover {
-                color:rgb(0, 255, 0);
-                transition: color 200ms;
-            }
-            #wrapper {
-                text-align: center;
-                padding: 32px
-            }
-            #wrapper img {
-                border-radius: 50%;
-                border: 5px solid #50fa7b;
-                margin-bottom: 32px;
-            }
-            #wrapper h1 {
-                font-size: 42px;
-                line-height: 52px;
-                font-weight: bold;
-            }
-          
+header div {
+    text-align: center;
+}
+
+header div a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+header div a:hover {
+    color: rgb(0, 255, 0);
+    transition: color 200ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid #50fa7b;
+    margin-bottom: 32px;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#wrapper p a {
+    color: #50fa7b;
+}
