@@ -35,7 +35,7 @@ header div a {
 }
 
 header div a:hover {
-    color: #50fa7b;
+    color: var(--color-green);
     transition: color 200ms;
 }
 
@@ -46,9 +46,10 @@ header div a:hover {
 
 #wrapper img {
     border-radius: 50%;
-    border: 5px solid #50fa7b;
+    border: 5px solid var(--color-green);
     margin-bottom: 32px;
     font-weight: normal;
+    height: 350px
 }
 
 #wrapper h1 {
@@ -62,16 +63,17 @@ header div a:hover {
     line-height: 34px;
     font-weight: normal;
     margin-top: 8px;
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 #wrapper p {
     max-width: 500px;
-    margin: 32px auto;
+    margin: 22px auto;
     font-size: 24px;
     line-height: 34px;
 }
 
 #wrapper p a {
-    color: #50fa7b;
+    color: var(--color-green);
+    text-decoration: none;
 }
