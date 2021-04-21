@@ -119,7 +119,56 @@
             background-color: #473FEA;
             filter: brightness(90%);
             padding: 5px 20px;
+            border-radius:20px;
+            text-align: center;
+
+        }
+        .card1 {
+            background-color: #473FEA;
+        }
+        .card__price2 {
+            background-color: #FEA71B;
+            filter: brightness(90%);
+            padding: 5px 20px;
             border-radius: 20px;
             text-align: center;
 
         }
+        .card2 {
+            background-color: #FEA71B;
+        }
+
+        .card__price3 {
+            background-color: #90D2EB;
+            filter: brightness(90%);
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+        .card3 {
+            background-color: #90D2EB;
+        }
+        .card__price4 {
+            background-color: #5ABFE5;
+            filter: brightness(90%);
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+        .card4 {
+            background-color: #5ABFE5;
+        }
+        .card__price5 {
+            background-color: #0C9648;
+            filter: brightness(90%);
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+        .card5 {
+            background-color: #0C9648;
+        }
+        
