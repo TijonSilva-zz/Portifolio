@@ -1,4 +1,42 @@
         @import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap';
+        @font-face {
+            font-family: "Material Icons";
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://example.com/MaterialIcons-Regular.eot);
+            src: local("Material Icons"), local("MaterialIcons-Regular"),
+              url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+              url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+              url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+          }
+          
+          .material-icons {
+            font-family: "Material Icons";
+            color: black;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            position: absolute;
+            right: 0;
+          
+            /* Suporte para all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Suporte para Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+          
+            /* Suporte para Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+          
+            /* Suporte para IE. */
+            font-feature-settings: "liga";
+          }
          :root {
             --color-green: #50fa7b;
             --color-rocket: #7159c1;
@@ -172,3 +210,23 @@
             background-color: #0C9648;
         }
         
+        /*=== MODAL ===*/
+        .modal-overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+        }
+        .modal {
+            background-color:white ;
+            width: 90%;
+            height: 90%;
+            margin: 5vh auto;
+            position: relative;
+            
+        }
+        .icons {
+            right: 0px;
+        }
+      
