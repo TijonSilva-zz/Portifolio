@@ -211,12 +211,41 @@
         }
         
         /*=== MODAL ===*/
-        .modal-overlay {
+
+        .material-icons {
+            font-family: "Material Icons";
+            
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            color: black;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+            /* Suporte para all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Suporte para Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+            /* Suporte para IE. */
+            font-feature-settings: "liga";
+          }
+
+          .modal-overlay {
             background-color: rgba(0, 0, 0, 0.7);
             width: 100%;
             height: 100%;
             position: fixed;
             top: 0;
+            opacity: 0;
+            visibility: hidden;
         }
         .modal {
             background-color:white ;
@@ -226,7 +255,19 @@
             position: relative;
             
         }
-        .icons {
-            right: 0px;
+        .modal .close-modal {
+            color: black;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
         }
+
+          /*=== MODAL ACTIVE ===*/
+          .modal-overlay.active {
+              opacity: 1;
+              visibility: visible;
+          }
+
+
       
