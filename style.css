@@ -264,10 +264,11 @@
         }
 
           /*=== MODAL ACTIVE ===*/
-          .modal-overlay.active {
+          .modal-overlay .active  {
               opacity: 1;
               visibility: visible;
           }
+       
 
 
       
