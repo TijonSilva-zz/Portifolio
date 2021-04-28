@@ -173,4 +173,11 @@ header {
 }
 
 /*===MODAL===*/
-.modal-overlay
+
+.modaloverlay {
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 100px;
+   height: 100px;
+   position: fixed;
+   top: 0;
+}
