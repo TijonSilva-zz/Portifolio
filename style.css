@@ -174,7 +174,7 @@ header {
 
 /*===MODAL===*/
 
-.modaloverlay {
+.modal-overlay {
    background-color: rgba(0, 0, 0, 0.7);
    width: 100px;
    height: 100px;
