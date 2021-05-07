@@ -132,27 +132,6 @@ header {
     gap: 20px;
 }
 
-
-
-.card__image-container img {
-    width: 100%
-}
-.card__content,
-.card__info { 
-    padding: 24px;
- }
- .card__info {
-     display:grid;
-     grid-template-columns: 1fr 1fr;
- } 
-.card__price {
-    background-color: var(--color-rocket);
-    filter: brightness(90%);
-    padding: 5px 20px;
-    border-radius: 20px;
-    text-align: center;
-
-}
 .card1__price1 {
     background-color: #473FEA;
     filter: brightness(90%);
@@ -212,6 +191,25 @@ header {
 
 .card6 {
     background-color: var(--color-rocket);
+}
+.card__image-container img {
+    width: 100%
+}
+.card__content,
+.card__info { 
+    padding: 24px;
+ }
+ .card__info {
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+ } 
+.card__price {
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+
 }
 
 /*=== MODAL ===*/
