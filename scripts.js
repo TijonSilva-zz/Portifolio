@@ -11,12 +11,10 @@ for (const card of cards1) {
     modalOverlay.classList.add("active")
   })
 }
-
-
 for (const card of cards2) {
- card.addEventListener("click", function () {
-   modalOverlay.classList.add("active")
- })
+  card.addEventListener("click", function () {
+    modalOverlay.classList.add("active")
+  })
 }
 for (const card of cards3) {
   card.addEventListener("click", function () {
