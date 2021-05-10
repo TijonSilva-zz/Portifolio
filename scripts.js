@@ -9,31 +9,37 @@ const cards6 = document.querySelectorAll(".card6")
 for (const card of cards1) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = `https://www.youtube.com/embed/xEKo29OWILE`
   })
 }
 for (const card of cards2) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = "https://www.youtube.com/embed/xEKo29OWILE"
   })
 }
 for (const card of cards3) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = "https://www.youtube.com/embed/xEKo29OWILE"
   })
 }
 for (const card of cards4) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = "https://www.youtube.com/embed/xEKo29OWILE"
   })
 }
 for (const card of cards5) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = "https://www.youtube.com/embed/xEKo29OWILE"
   })
 }
 for (const card of cards6) {
   card.addEventListener("click", function () {
     modalOverlay.classList.add("active")
+    modalOverlay.querySelector("ïframe").src = "https://www.youtube.com/embed/xEKo29OWILE"
   })
 }
 document.querySelector(".close-modal").addEventListener("click", function(){
