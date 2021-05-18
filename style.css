@@ -138,6 +138,7 @@ header {
     padding: 5px 20px;
     border-radius:20px;
     text-align: center;
+    cursor: pointer;
 
 }
 .card1 {
@@ -149,6 +150,7 @@ header {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 .card2 {
@@ -161,6 +163,7 @@ header {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 .card3 {
@@ -172,6 +175,7 @@ header {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 .card4 {
@@ -183,6 +187,7 @@ header {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 .card5 {
@@ -209,6 +214,7 @@ header {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 
