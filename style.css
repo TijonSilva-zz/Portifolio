@@ -73,6 +73,7 @@ header {
     margin: 0 16px;
     padding-bottom: 3px;
     text-decoration: none;
+    text-align: center;
 }
 
 .links a:hover {
@@ -81,7 +82,7 @@ header {
 }
 
 #wrapper {
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 
