@@ -4,13 +4,10 @@
     font-style: normal;
     font-weight: 400;
     src: url(https://example.com/MaterialIcons-Regular.eot);
-    src: local("Material Icons"), local("MaterialIcons-Regular"),
-      url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
-      url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
-      url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
-  }
-  
-  .material-icons {
+    src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
     font-family: "Material Icons";
     color: black;
     font-weight: normal;
@@ -27,18 +24,16 @@
     right: 8px;
     top: 8px;
     cursor: pointer;
-  
     /* Suporte para all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
     /* Suporte para Safari and Chrome. */
     text-rendering: optimizeLegibility;
-  
     /* Suporte para Firefox. */
     -moz-osx-font-smoothing: grayscale;
-  
     /* Suporte para IE. */
     font-feature-settings: "liga";
-  }
+}
+
  :root {
     --color-green: #50fa7b;
     --color-rocket: #7159c1;
@@ -83,7 +78,7 @@ header {
 
 #wrapper {
     text-align: left;
-    paddingt: 20px left;
+    padding: 20px left;
 }
 
 #wrapper img {
@@ -91,7 +86,7 @@ header {
     border: 5px solid var(--color-green);
     margin-bottom: 22px;
     font-weight: normal;
-    height: 250px
+    height: 250px;
 }
 
 #wrapper h1 {
@@ -123,6 +118,8 @@ header {
 #links-footer a {
     border-bottom: 1px solid var(--color-green);
 }
+
+
 /*== CARDS ==*/
 
 .cards {
@@ -137,14 +134,15 @@ header {
     background-color: #473FEA;
     filter: brightness(90%);
     padding: 5px 20px;
-    border-radius:20px;
+    border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
+
 .card1 {
     background-color: #473FEA;
 }
+
 .card__price2 {
     background-color: #FEA71B;
     filter: brightness(90%);
@@ -152,8 +150,8 @@ header {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
+
 .card2 {
     background-color: #FEA71B;
 }
@@ -165,11 +163,12 @@ header {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
+
 .card3 {
     background-color: #90D2EB;
 }
+
 .card__price4 {
     background-color: #5ABFE5;
     filter: brightness(90%);
@@ -177,11 +176,12 @@ header {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
+
 .card4 {
     background-color: #5ABFE5;
 }
+
 .card__price5 {
     background-color: #0C9648;
     filter: brightness(90%);
@@ -189,8 +189,8 @@ header {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
+
 .card5 {
     background-color: #0C9648;
 }
@@ -198,17 +198,21 @@ header {
 .card6 {
     background-color: var(--color-rocket);
 }
+
 .card__image-container img {
     width: 100%
 }
+
 .card__content,
-.card__info { 
+.card__info {
     padding: 24px;
- }
- .card__info {
-     display:grid;
-     grid-template-columns: 1fr 1fr;
- } 
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .card__price {
     background-color: var(--color-rocket);
     filter: brightness(90%);
@@ -216,11 +220,12 @@ header {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-
 }
 
+
 /*=== MODAL ===*/
-.modal-overlay  {
+
+.modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
@@ -228,25 +233,28 @@ header {
     top: 0;
     opacity: 0;
     visibility: hidden;
-
 }
+
 .modal {
-    background-color:white ;
+    background-color: white;
     width: 91%;
     height: 91%;
     margin: 5vh auto;
     position: relative;
-    
 }
+
 .icons {
     right: 0px;
 }
 
+
 /*=== MODAL active ===*/
+
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
+
 iframe {
     width: 100%;
     height: 90%;
